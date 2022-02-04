@@ -1,0 +1,145 @@
+/* Header  */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.container {
+  display: flex;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+}
+.header {
+  display: flex;
+  background-color: white;
+}
+.head {
+  display: flex;
+}
+.logo img {
+  display: flex;
+  margin-top: 10px;
+  width: 144px;
+  margin-left: 57px;
+}
+ul.list {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 33px;
+}
+.insideheader {
+  padding: 7px;
+  margin-left: 147px;
+}
+nav.insideheader {
+  display: flex;
+  padding: 7px;
+  margin-left: 147px;
+}
+
+.list li {
+  justify-content: space-between;
+  display: flex;
+  margin: 10px;
+  font-size: medium;
+  font-weight: 550;
+}
+li {
+  list-style: none;
+}
+.inheader1 {
+  background: #eb5d1e;
+
+  padding: 10px 25px;
+  margin: 0;
+  border-radius: 50px;
+}
+.list a {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #4e4039;
+}
+a:hover {
+  color: #eb5d1e;
+  cursor: pointer;
+}
+
+/* header Ends Here */
+
+/* Curriculam detail box */
+p.detail {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+  color: #c2b7b1;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+p.detail2 {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4e4039;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Curriculam detail box  End here*/
+
+/* Main Body  cards starts*/
+.mainbody {
+  margin: 15px 25px;
+  display: flex;
+  background-color: #fef8f5;
+}
+
+.main {
+  background-color: #fef8f5;
+  display: flex;
+  gap: 8px;
+  margin: 10px;
+  padding: 5px;
+}
+
+div.frontend {
+  background-color: #fff;
+  padding: 40px;
+
+  border-radius: 18px;
+  gap: 10px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p.para {
+  display: flex;
+  justify-content: center;
+}
+p.para1 {
+  margin: 10px 10px;
+}
+
+h4.heading {
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+
+.frontend {
+  position: relative;
+  top: 0;
+  transition: top ease-in 0.5s;
+}
+.frontend:hover {
+  top: -15px;
+  border-bottom: 2px solid #eb5d1e;
+}
